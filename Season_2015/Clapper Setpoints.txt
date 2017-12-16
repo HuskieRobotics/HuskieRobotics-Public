@@ -1,0 +1,10 @@
+Straight:
+0.678
+Open:
+.881
+Tote Closed:
+.58
+Bin Closed:
+.634
+In:
+.271
