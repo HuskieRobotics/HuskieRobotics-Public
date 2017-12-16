@@ -1,0 +1,9 @@
+## LabVIEW
+*.lvlps
+*.aliases
+
+## Executables (Dashboard)
+*.exe
+*.ini
+
+[Bb]uilds/
