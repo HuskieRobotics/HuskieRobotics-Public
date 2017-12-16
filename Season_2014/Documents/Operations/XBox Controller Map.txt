@@ -1,0 +1,21 @@
+-------Buttons--------
+Button 1: A
+Button 2: B
+Button 3: X
+Button 4: Y
+Button 5: Left bumper
+Button 6: R bumper
+Button 7: Back
+Button 8: Start
+Button 9: Left joystick press
+Button 10: Right joystick press
+Button 11: ---
+Button 12: ---
+
+-------Axes-------
+Axis 1: left joystick (right = positive, left = negative)
+Axis 2: left joystick (down = positive, up = negative)
+Axis 3: Left trigger and Right trigger (LT = positive, RT = negative)
+Axis 4: right joystick (right = positive, left = negative)
+Axis 5: right joystick (down = positive, up = negative)
+Axis 6: d-pad (right = 1, left = -1)

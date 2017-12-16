@@ -1,0 +1,59 @@
+--------------------
+Time
+--------------------
+3 hrs 15 mins
+
+--------------------
+Design Notes
+--------------------
+States:
+N/S Green (4s)
+N/S Yellow (2s)
+All Red (2s)
+If East Sensor OR West Sensor = TRUE then
+  E/W Left Green (4s)
+  E/W Left Yellow (2s)
+  All Red (2s)
+E/W Green (4s)
+E/W Yellow (2s)
+All Red (2s)
+If North Sensor or South Sensor = TRUE then
+  N/s Left Green (4s)
+  N/S Left Yellow (2s)
+  All Red (2s)
+<repeat>
+
+* Anytime stop is pressed System should exit immediately
+
+Time of states
+Red: 4 seconds
+Yellow: 2 seconds
+Green: 4 seconds
+
+--------------------
+Modules
+--------------------
+Traffic Light Controller
+Data:
+  Current State
+  Previous State
+  Cluster for Sensor Buttons
+  Cluster for Traffic Lights (traffic lights are paired)
+    N/S
+    E/W
+    N/S Left
+    E/W Left
+  Traffic Lights default data - all Red, update with current lights (N/S E/W pair) 
+Methods:
+  Initialise
+  Check State
+  Go To Next State
+  Shutdown
+
+Timer (could use default timer?)
+Data:
+  Start Time (s)
+  Target Time (s)
+Methods:
+  Start Timer
+  Check Timer

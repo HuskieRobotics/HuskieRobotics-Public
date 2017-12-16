@@ -1,0 +1,13 @@
+.LOG
+
+7:30 PM 2/19/2013
+
+New PID Values:
+P = 0.015
+I = 0.001
+D = 0.000
+
+For use for AlwaysPID.vi.
+
+
+
