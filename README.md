@@ -8,6 +8,7 @@ This code is released under the MIT License - as long as you publicly credit us 
 
 Our code bases are organized by year, by robot, and then into frameworks (robot code) and dashboard projects (run on the driver station.)  
 We have separate code bases for every year's robot, and often we will rewrite last year's code as practice and training.
+  - **Samus** - robot code for Samus, our 2018 robot.
   - **Victoria** - robot code for Victoria, our 2017 robot.
   - **Morgana** - robot code for Morgana, our 2016 robot.
   - **Bonnie** - robot code for Bonnie, our 2015 robot.
