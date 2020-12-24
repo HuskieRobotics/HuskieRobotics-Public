@@ -8,6 +8,8 @@ This code is released under the MIT License - as long as you publicly credit us 
 
 Our code bases are organized by year, by robot, and then into frameworks (robot code) and dashboard projects (run on the driver station.)  
 We have separate code bases for every year's robot, and often we will rewrite last year's code as practice and training.
+  - **Luminara** - robot code for Lumi, our 2020 robot.
+  - **Clementine** - robot code for Clementine, our 2019 robot.
   - **Samus** - robot code for Samus, our 2018 robot.
   - **Victoria** - robot code for Victoria, our 2017 robot.
   - **Morgana** - robot code for Morgana, our 2016 robot.
